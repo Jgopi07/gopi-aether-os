@@ -91,8 +91,8 @@ const v = pattern[i % pattern.length];
   <div className="space-y-3">
     {[
       {
-        name: "Gopi OS",
-        link: "https://github.com/Jgopi07",
+        name: "Gopi OS (Portfolio)",
+        link: "https://github.com/Jgopi07/gopi-aether-os",
       },
       {
         name: "VarmaX AI",

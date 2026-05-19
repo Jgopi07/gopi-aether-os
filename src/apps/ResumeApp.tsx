@@ -1,7 +1,7 @@
 import { Download, FileText } from "lucide-react";
 import { motion } from "framer-motion";
 
-const PDF = "/Jangili_Gopi_FullStack_Developer_Resume.pdf";
+const PDF = "/Jangili_Gopi_Full_Stack_Developer_&_AI-Powered_Digital_Creator.pdf";
 
 export function ResumeApp() {
   return (

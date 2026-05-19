@@ -66,7 +66,7 @@ function Desktop() {
 
       {/* watermark */}
       <div className="hidden md:block fixed bottom-3 right-4 z-30 text-[10px] font-mono text-muted-foreground">
-        gopi-os // build 2049.11.{new Date().getDate()}
+        gopi-os // build 2026.05.19
       </div>
     </main>
   );

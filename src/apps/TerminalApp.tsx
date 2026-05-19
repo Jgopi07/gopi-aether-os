@@ -75,15 +75,15 @@ export function TerminalApp() {
   wm.openApp("certifications");
   out("› certification vault unlocked");
 }else if (cmd === "portfolio") {
-  window.open("https://gopi-aether-os.vercel.app", "_blank");
+  window.open("https://gopi-aether-os.gopijangili123.workers.dev/", "_blank");
   out("› launching Gopi OS portfolio");
 }else if (cmd === "open-realestate") {
-  window.open("https://real-estate-ai.vercel.app/", "_blank");
+  window.open("https://jgopi07.github.io/-real-estate-ai/", "_blank");
   out("› launching Real Estate AI");
 }
 
 else if (cmd === "open-zenflow") {
-  window.open("https://zenflow-meditation-app.vercel.app/", "_blank");
+  window.open("https://jgopi07.github.io/zenflow-meditation-app/", "_blank");
   out("› launching Zenflow Meditation App");
 }else if (cmd === "whoami") {
   out([
