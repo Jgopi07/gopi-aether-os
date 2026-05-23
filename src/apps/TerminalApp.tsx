@@ -21,6 +21,7 @@ const HELP = [
   "",
   "Projects:",
   "  open-varmax",
+  "  open-eternalhearts",
   "  open-realestate",
   "  open-zenflow",
   "  open-portfolio",
@@ -111,6 +112,22 @@ else if (cmd === "open-zenflow") {
     "✓ Recruiter Compatibility: HIGH",
   ]);
 }
+
+else if (cmd === "open-eternalhearts") {
+  window.open(
+    "https://eternal-hearts-infinity.vercel.app/",
+    "_blank"
+  );
+
+  out([
+    "› launching Eternal Hearts Infinity...",
+    "› cinematic universe initialized",
+    "› AI voice systems online",
+    "› immersive storytelling engine activated"
+  ]);
+}
+
+
     else if (cmd === "contact") { wm.openApp("contact"); out("› opening communication channel"); }
     else if (cmd === "resume") { wm.openApp("resume"); out("› ATS scan in progress"); }
     else if (cmd === "github") { window.open("https://github.com/Jgopi07", "_blank"); out("› launching github.com/Jgopi07"); }

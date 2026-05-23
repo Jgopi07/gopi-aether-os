@@ -14,6 +14,7 @@ const SCORES = [
   { k: "UI Innovation", v: 97 },
   { k: "Responsive Systems", v: 92 },
   { k: "AI Integration", v: 89 },
+  { k: "Cinematic Storytelling", v: 96 },
 ];
 
 export function GitHubApp() {
@@ -72,7 +73,7 @@ const v = pattern[i % pattern.length];
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
         {[
-  { k: "Projects", v: "10+" },
+  { k: "Projects", v: "11+" },
   { k: "Tech Stack", v: "20+" },
   { k: "AI Systems", v: "5+" },
   { k: "Status", v: "ACTIVE" },
@@ -90,6 +91,10 @@ const v = pattern[i % pattern.length];
 
   <div className="space-y-3">
     {[
+      {
+  name: "Eternal Hearts Infinity",
+  link: "https://github.com/Jgopi07/eternal-hearts-infinity",
+},
       {
         name: "Gopi OS (Portfolio)",
         link: "https://github.com/Jgopi07/gopi-aether-os",

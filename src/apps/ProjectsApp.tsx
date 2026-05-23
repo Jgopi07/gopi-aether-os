@@ -12,6 +12,27 @@ const PROJECTS = [
     scores: { complexity: 92, innovation: 96, scalability: 88, performance: 90 },
   },
   {
+  name: "Eternal Hearts Infinity",
+  tag: "AI Visual Novel Platform",
+  desc: "Futuristic romantic visual novel experience with cinematic storytelling, adaptive music, AI voice narration, and immersive UI animations.",
+  stack: [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind",
+    "Framer Motion",
+    "Zustand"
+  ],
+  repo: "https://github.com/Jgopi07/eternal-hearts-infinity",
+  live: "https://eternal-hearts-infinity.vercel.app/",
+  scores: {
+    complexity: 95,
+    innovation: 97,
+    scalability: 90,
+    performance: 94
+  },
+},
+  {
     name: "Real Estate AI",
     tag: "Smart Listings",
     desc: "AI-powered real estate platform with smart recommendations.",

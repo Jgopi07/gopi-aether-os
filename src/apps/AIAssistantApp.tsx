@@ -13,7 +13,7 @@ const QUICK = [
   "Explain Gopi OS",
   "Show MERN stack experience",
   "List certifications",
-  "Open recruiter mode",
+  "Recruiter mode",
   "Show AI projects",
   "What technologies does Gopi use?",
 ];
@@ -67,6 +67,9 @@ Specializations:
       return `
 Featured Projects:
 
+💖 Eternal Hearts Infinity
+Cinematic AI-powered romantic visual novel with voice narration, animated storytelling, immersive dialogue systems, and futuristic emotional UI.
+
 🚀 Gopi OS
 Futuristic AI-powered portfolio operating system with holographic UI and interactive terminal.
 
@@ -105,6 +108,30 @@ Tech Stack:
 React • TypeScript • Tailwind • Framer Motion • Vite
       `;
     }
+
+// ETERNAL HEARTS
+if (
+  q.includes("eternal hearts") ||
+  q.includes("visual novel") ||
+  q.includes("romance game")
+) {
+  return `
+Eternal Hearts Infinity is a futuristic AI-powered romantic visual novel experience.
+
+Features:
+• AI Voice Narration
+• Male & Female Character Voices
+• Animated Dialogue Engine
+• Immersive Storytelling
+• Auto-play Conversations
+• Dynamic Music System
+• Responsive Mobile Experience
+• Cinematic UI Animations
+
+Tech Stack:
+Next.js • TypeScript • Tailwind CSS • Framer Motion • Zustand • Speech Synthesis API
+  `;
+}
 
     // MERN
     if (
